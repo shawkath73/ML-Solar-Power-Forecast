@@ -12,3 +12,11 @@ This week, I loaded, cleaned, and merged the generation and weather datasets. I 
 
    <img width="868" height="547" alt="image" src="https://github.com/user-attachments/assets/e4e670ca-0ae6-401d-96a8-d470cb96412b" />
 
+## 🤖 Week 2: Model Training & Evaluation
+
+This week, I trained and compared two machine learning models to predict power output:
+
+* **Linear Regression (Baseline):** R-squared = 0.9495
+* **Random Forest (Champion):** R-squared = 0.9637
+
+The Random Forest model was more accurate and will be used for the final predictions.
