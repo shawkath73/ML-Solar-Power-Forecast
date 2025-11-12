@@ -20,3 +20,25 @@ This week, I trained and compared two machine learning models to predict power o
 * **Random Forest (Champion):** R-squared = 0.9637
 
 The Random Forest model was more accurate and will be used for the final predictions.
+
+## 🏁 Final Results & Conclusion
+
+To validate the model, I performed two final visualizations.
+
+### 1. Actual vs. Predicted Power
+I plotted the predicted values against the actual values to check accuracy.
+
+<img width="859" height="547" alt="image" src="https://github.com/user-attachments/assets/48804d3b-27df-4de8-a866-46724db04f12" />
+
+* **Observation:** The blue dots are tightly clustered around the red diagonal line.
+* **Result:** The Random Forest model achieved an **R² score of 96%**, proving it is highly accurate.
+
+### 2. Feature Importance
+I analyzed which factors contributed most to the power generation.
+
+<img width="839" height="470" alt="image" src="https://github.com/user-attachments/assets/0ac6daf5-e3f5-4237-b244-8a5698ab2b08" />
+
+* **Observation:** The graph confirms that **Irradiation (Sunlight)** is the single most important factor for predicting solar power, followed by Temperature and Hour.
+
+### ✅ Conclusion
+The project successfully demonstrated that machine learning can be used to reliably forecast renewable energy generation. The Random Forest model was significantly better than the baseline, handling the complex relationship between weather and power output.
